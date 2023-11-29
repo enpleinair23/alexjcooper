@@ -39,7 +39,7 @@ const LogoClouds = () => {
             <span className="absolute block h-px bg-white bottom-1/2 left-0 right-0 bg-logo-clouds-line"></span>
             <div className="bg-white px-6 py-3 relative">
               <p className="text-body-sm font-semibold tracking-2 text-neutral-500">
-                MORE THAN 150+ BRANDS
+                MORE THAN 10+ BRANDS
               </p>
             </div>
           </div>

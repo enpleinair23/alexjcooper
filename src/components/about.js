@@ -17,9 +17,9 @@ const About = () => {
     }
   `);
   const metrics = [
-    { count: "15", label: "YEARS OF EXPERIENCE" },
-    { count: "250+", label: "MOBILE APPS SHIPPED" },
-    { count: "18", label: "DESIGN AWARDS" },
+    { count: "3", label: "YEARS OF EXPERIENCE" },
+    { count: "10+", label: "AD CAMPAIGNs" },
+    { count: "1", label: "DESIGN AWARD" },
   ];
   return (
     <div id="#about">

@@ -4,9 +4,9 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   const navigation = [
-    { name: "Work", href: "#work" },
-    { name: "Services", href: "#services" },
-    { name: "About", href: "#about" },
+    { name: "WORK", href: "#work" },
+    { name: "SERVICES", href: "#services" },
+    { name: "ABOUT", href: "#about" },
   ];
   return (
     <header>
@@ -15,7 +15,7 @@ const Header = () => {
           <div className="flex flex-row gap-8 items-center">
             <Link to="/">
               <p className="text-body-lg font-bold text-neutral-900">
-                Alex J Cooper
+                Alexander J Cooper
               </p>
             </Link>
           </div>
@@ -28,7 +28,7 @@ const Header = () => {
                   duration={500}
                   key={item.name}
                   to={item.href}
-                  className="text-body-sm font-medium text-neutral-700 hover:text-primary-600 px-4">
+                  className="text-body-sm font-semibold text-neutral-700 hover:text-primary-600 px-4">
                   {item.name}
                 </Link>
               ))}

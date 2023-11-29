@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Bruno Simmons – Digital Designer`,
+    title: `Alexander J Cooper - Video Editor`,
     description: `A minimal digital designer portfolio template. Made by Landify.`,
-    siteUrl: `https://landify.design`, // Replace with your domain name
+    siteUrl: `https://alexjcooper.com`, // Replace with your domain name
     author: `@landifydesign`, // Replace with your twitter handle
   },
   plugins: [

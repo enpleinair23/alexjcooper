@@ -14,8 +14,8 @@ const IndexPage = () => (
     <Hero />
     <Works />
     <Services />
-    <LogoClouds />
     <About />
+    <LogoClouds />
   </Layout>
 );
 

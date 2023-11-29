@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./button";
 
+
 const Hero = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const Hero = () => {
           <div className="lg:col-span-1"></div>
           <div className="lg:col-span-10 flex flex-col items-center">
             <p className="md:text-body-xl text-body-lg font-medium pb-4">
-              Hey there, I’m Bruno Simmons 👋
+              Hey there, I’m Alexander Cooper
             </p>
             <h1 className="lg:text-display-2xl md:text-display-xl text-display-md font-semibold pb-10">
               Building digital products, brands and experience
