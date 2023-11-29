@@ -1,0 +1,49 @@
+{
+  "name": "bruno-gastby-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A minimal digital designer portfolio template. Made by Landify.",
+  "author": "Landify <hello@landify.design>",
+  "keywords": [
+    "landify",
+    "gatsby",
+    "tailwind css",
+    "landify template",
+    "landing page template",
+    "portfolio template",
+    "designer portfolio"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.10.3",
+    "gatsby-plugin-gatsby-cloud": "^4.10.1",
+    "gatsby-plugin-google-gtag": "^4.10.0",
+    "gatsby-plugin-image": "^2.10.1",
+    "gatsby-plugin-manifest": "^4.10.2",
+    "gatsby-plugin-offline": "^5.10.2",
+    "gatsby-plugin-react-helmet": "^5.10.0",
+    "gatsby-plugin-robots-txt": "^1.7.0",
+    "gatsby-plugin-sharp": "^4.10.2",
+    "gatsby-plugin-sitemap": "^5.10.2",
+    "gatsby-source-filesystem": "^4.10.1",
+    "gatsby-transformer-json": "^4.10.0",
+    "gatsby-transformer-sharp": "^4.10.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-scroll": "^1.8.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "gatsby-plugin-postcss": "^5.10.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
