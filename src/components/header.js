@@ -15,7 +15,7 @@ const Header = () => {
           <div className="flex flex-row gap-8 items-center">
             <Link to="/">
               <p className="text-body-lg font-bold text-neutral-900">
-                Alexander J Cooper
+                ALEX COOPER
               </p>
             </Link>
           </div>
@@ -33,7 +33,7 @@ const Header = () => {
                 </Link>
               ))}
             </div>
-            <Button label="CONTACT" link="#" />
+            <Button label="CONTACT" link="#contact"/>
           </div>
         </div>
       </div>

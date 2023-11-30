@@ -10,10 +10,10 @@ const Hero = () => {
           <div className="lg:col-span-1"></div>
           <div className="lg:col-span-10 flex flex-col items-center">
             <p className="md:text-body-xl text-body-lg font-medium pb-4">
-              Hey there, I’m Alexander Cooper
+              Hey there, I’m Alex Cooper
             </p>
             <h1 className="lg:text-display-2xl md:text-display-xl text-display-md font-semibold pb-10">
-              Building digital products, brands and experience
+              Editing video products, brands and experience
             </h1>
             <Button label="CONNECT WITH ME" link="#" size="lg" />
           </div>

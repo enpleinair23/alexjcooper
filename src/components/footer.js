@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   const social = [
     { name: "Instagram", href: "https://www.instagram.com/alexjcooper23/" },
-    { name: "Twitter", href: "#" },
+    { name: "Twitter", href: "https://twitter.com/alexjcooper23" },
     { name: "YouTube", href: "#" },
   ];
   return (

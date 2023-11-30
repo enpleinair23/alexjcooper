@@ -21,12 +21,12 @@ const LogoClouds = () => {
   return (
     <div>
       <div className="container mx-auto">
-        <div className="md:py-12 py-8">
+        <div className="md:py-6 py-4">
           <div className="flex justify-center relative pb-1">
             <span className="absolute block h-px bg-white bottom-1/2 left-0 right-0 bg-logo-clouds-line"></span>
             <div className="bg-white px-6 py-3 relative">
               <p className="text-body-sm font-semibold tracking-2 text-neutral-500">
-                CRAFTED DESIGNS FOR
+                PRODUCED AND EDITED FOR
               </p>
             </div>
           </div>
