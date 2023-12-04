@@ -4,7 +4,7 @@ const Footer = () => {
   const social = [
     { name: "Instagram", href: "https://www.instagram.com/alexjcooper23/" },
     { name: "Twitter", href: "https://twitter.com/alexjcooper23" },
-    { name: "YouTube", href: "#" },
+    { name: "YouTube", href: "https://www.youtube.com/@ENPLEINAIRFILMS" },
   ];
   return (
     <footer className="bg-black text-white">

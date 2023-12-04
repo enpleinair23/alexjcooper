@@ -47,7 +47,7 @@ const About = () => {
               <div className="flex items-start pt-12">
               <a
                 href="/"
-                className="text-body-sm font-semibold text-white bg-neutral-900 py-4 pl-5 pr-4 rounded-full flex flex-row gap-2 items-center justify-center"
+                className="text-body-sm font-semibold text-white bg-neutral-900 py-4 pl-5 pr-4 rounded-full flex flex-row gap-2 items-center justify-center hover:bg-primary-600"
               >
                 DOWNLOAD MY CV HERE
               </a>

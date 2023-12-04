@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Alexander J Cooper - Video Editor`,
-    description: `A minimal digital designer portfolio template. Made by Landify.`,
+    title: `Alex J Cooper - Video Editor, Colourist, Motion Graphics`,
+    description: `A minimal digital designer portfolio template.`,
     siteUrl: `https://alexjcooper.com`, // Replace with your domain name
-    author: `@landifydesign`, // Replace with your twitter handle
+    author: `@Cooper12325Alex`, // Replace with your twitter handle
   },
   plugins: [
     `gatsby-plugin-postcss`,

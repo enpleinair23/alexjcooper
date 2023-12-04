@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-import previewImage from "../images/og-preview.jpg";
-
 function Seo({ lang, meta, title, description, image, url }) {
   const { site } = useStaticQuery(
     graphql`
@@ -24,7 +22,6 @@ function Seo({ lang, meta, title, description, image, url }) {
   const siteTitle = title || site.siteMetadata.title;
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
-  const ogImage = image || previewImage;
   const ogUrl = `/${url}` || "";
 
   return (
@@ -41,10 +38,6 @@ function Seo({ lang, meta, title, description, image, url }) {
         {
           name: `keywords`,
           content: `landing page, uikit, open source ui kit, landify ui kit, free uikit, figma uikit, aravinddesign, free website ui kit, free figma website ui kit, free landing page ui kit, landing page ui kit for figma, website ui kit for figma`,
-        },
-        {
-          property: `og:image`,
-          content: `${siteUrl}${ogImage}`,
         },
         {
           property: `og:title`,
@@ -69,10 +62,6 @@ function Seo({ lang, meta, title, description, image, url }) {
         {
           name: `twitter:creator`,
           content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:image`,
-          content: `${siteUrl}${ogImage}`,
         },
         {
           name: `twitter:title`,

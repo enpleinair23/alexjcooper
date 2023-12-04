@@ -13,7 +13,7 @@ const Hero = () => {
               Hey there, I’m Alex Cooper
             </p>
             <h1 className="lg:text-display-2xl md:text-display-xl text-display-md font-semibold pb-10">
-              Editing video products, brands and experience
+              Editing video projects, colour grading and motion graphics
             </h1>
             <Button label="CONNECT WITH ME" link="#" size="lg" />
           </div>

@@ -12,6 +12,7 @@ const Works = () => {
           id
           title
           description
+          link
           image {
             childImageSharp {
               gatsbyImageData(
@@ -33,7 +34,7 @@ const Works = () => {
           <div className="grid lg:grid-cols-12 grid-cols-1 gap-8 items-center">
             <div className="xl:col-span-6 lg:col-span-8 flex flex-row items-center gap-8 lg:pr-8">
               <h2 className="lg:text-display-lg text-display-md font-semibold lg:pl-10">
-                The work I do, <br></br>and businesses I help.
+                The work I do, <br></br>and businesses I help
               </h2>
             </div>
           </div>
@@ -45,13 +46,16 @@ const Works = () => {
                   image={getImage(node.image)}
                   title={node.title}
                   description={node.description}
+                  link={node.link}
                 />
               ))}
             </div>
             <div className="flex items-start lg:px-10 md:-mt-7">
               <a
-                href="/"
-                className="text-body-sm font-semibold text-white bg-neutral-900 py-4 pl-5 pr-4 rounded-full flex flex-row gap-2 items-center justify-center"
+                href="https://www.youtube.com/@ENPLEINAIRFILMS"
+                target="_blank"
+                rel="noreferrer"
+                className="text-body-sm font-semibold text-white bg-neutral-900 hover:bg-primary-600 py-4 pl-5 pr-4 rounded-full flex flex-row gap-2 items-center justify-center"
               >
                 VISIT MY YOUTUBE
               </a>

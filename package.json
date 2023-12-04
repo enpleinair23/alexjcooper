@@ -1,16 +1,16 @@
 {
-  "name": "bruno-gastby-template",
+  "name": "alexjcooper",
   "version": "1.0.0",
   "private": true,
-  "description": "A minimal digital designer portfolio template. Made by Landify.",
-  "author": "Landify <hello@landify.design>",
+  "description": "A minimal digital designer portfolio.",
+  "author": "Alex Cooper <alexanderjohncooper23@hotmail.com>",
   "keywords": [
     "landify",
     "gatsby",
     "tailwind css",
     "landify template",
     "landing page template",
-    "portfolio template",
+    "portfolio",
     "designer portfolio"
   ],
   "scripts": {
@@ -21,6 +21,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "gatsby": "^4.10.3",
     "gatsby-plugin-gatsby-cloud": "^4.10.1",
     "gatsby-plugin-google-gtag": "^4.10.0",

@@ -1,12 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
-const WorkItem = ({ image, title, description }) => {
+const WorkItem = ({ image, title, description, link }) => {
   return (
     <div className="flex basis-1/2 flex-col lg:odd:pl-10 lg:odd:pr-14 lg:even:pr-10 lg:even:pl-14 md:odd:pr-4 md:even:pl-4 px-0 md:even:mt-20 md:odd:pb-20 md:even:pb-0 pb-12">
       <div>
-        <GatsbyImage image={image} alt={title} />
+        <Link to={link}>
+          <GatsbyImage image={image} alt={title} className="hover:opacity-75"/>
+        </Link>
       </div>
       <div className="flex flex-col self-stretch pt-6">
         <h3 className="lg:text-display-xs text-body-xl font-semibold pb-2">
@@ -24,6 +27,7 @@ WorkItem.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default WorkItem;
