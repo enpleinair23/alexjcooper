@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Alex J Cooper - Video Editor, Colourist, Motion Graphics`,
+    title: `Alex Cooper - Video Editor, Colourist, Motion Graphics`,
     description: `A minimal digital designer portfolio template.`,
     siteUrl: `https://alexjcooper.com`, // Replace with your domain name
     author: `@Cooper12325Alex`, // Replace with your twitter handle
@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#7C3AED`,
         theme_color: `#7C3AED`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // Replace with your favicon (This path is relative to the root of the site)
+        icon: `src/images/favicon4.png`, // Replace with your favicon (This path is relative to the root of the site)
       },
     },
     {
