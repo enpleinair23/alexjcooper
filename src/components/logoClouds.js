@@ -30,9 +30,9 @@ const LogoClouds = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row flex-wrap justify-center items-center gap-8 py-6">
+          <div className="flex flex-wrap justify-center items-center gap-8 py-6 px-6">
             {data.clients.edges.map(({ node }) => (
-              <img src={node.publicURL} alt={node.name} key={node.id} />
+              <img src={node.publicURL} alt={node.name} key={node.id} className=""/>
             ))}
           </div>
           <div className="flex justify-center relative pb-1">

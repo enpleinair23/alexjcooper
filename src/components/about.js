@@ -27,11 +27,11 @@ const About = () => {
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-8 gap-12 items-center lg:py-12 md:pt-12 md:pb-6 pt-10 pb-6">
           <div className="lg:col-span-5 flex flex-row items-center gap-8">
-            <div className="flex flex-col xl:pr-8 lg:pl-10">
-              <h2 className="md:text-display-lg text-display-md font-semibold md:pb-6 pb-4">
+            <div className="flex flex-col justify-center sm:justify-start xl:pr-8 lg:pl-10">
+              <h2 className="text-center sm:text-left md:text-display-lg text-display-md font-semibold md:pb-6 pb-4">
                 A bit about me
               </h2>
-              <p className="text-body-md font-normal text-neutral-700">
+              <p className="text-body-md font-normal text-neutral-700 text-center sm:text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer. Nunc odio in et, lectus
                 sit lorem id integer.
@@ -44,7 +44,7 @@ const About = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-              <div className="flex items-start pt-12">
+              <div className="flex justify-center sm:justify-start items-start pt-12">
               <a
                 href="/"
                 className="text-body-sm font-semibold text-white bg-neutral-900 py-4 pl-5 pr-4 rounded-full flex flex-row gap-2 items-center justify-center hover:bg-primary-600"

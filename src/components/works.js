@@ -32,8 +32,8 @@ const Works = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-12 lg:py-12 py-8">
           <div className="grid lg:grid-cols-12 grid-cols-1 gap-8 items-center">
-            <div className="xl:col-span-6 lg:col-span-8 flex flex-row items-center gap-8 lg:pr-8">
-              <h2 className="lg:text-display-lg text-display-md font-semibold lg:pl-10">
+            <div className="xl:col-span-6 lg:col-span-8 flex flex-row justify-center sm:justify-start items-center gap-8 lg:pr-8">
+              <h2 className="text-center sm:text-left lg:text-display-lg text-display-md font-semibold lg:pl-10">
                 The work I do, <br></br>and businesses I help
               </h2>
             </div>

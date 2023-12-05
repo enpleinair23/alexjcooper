@@ -9,9 +9,6 @@ const Hero = () => {
         <div className="grid lg:grid-cols-12 grid-cols-1 flex-col md:pt-32 pt-16 lg:pb-48 md:pb-40 pb-20 justify-between items-center text-center">
           <div className="lg:col-span-1"></div>
           <div className="lg:col-span-10 flex flex-col items-center">
-            <p className="md:text-body-xl text-body-lg font-medium pb-4">
-              Hey there, I’m Alex Cooper
-            </p>
             <h1 className="lg:text-display-2xl md:text-display-xl text-display-md font-semibold pb-10">
               Editing video projects, colour grading and motion graphics
             </h1>

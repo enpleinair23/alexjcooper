@@ -12,8 +12,8 @@ const Services = () => {
             <div className="absolute lg:block hidden h-16 bg-white bottom-0 left-0 right-0"></div>
             <div className="absolute lg:block hidden h-16 bg-white top-0 left-0 right-0"></div>
             <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-8 items-center  relative">
-              <div className="lg:col-span-5 flex flex-col items-start xl:px-18 lg:px-10 md:px-8 px-5 lg:py-32 md:pb-4 pb-10">
-                <h2 className="lg:text-display-lg text-display-md font-semibold pb-4">
+              <div className="lg:col-span-5 flex justify-center sm:justify-start flex-col items-start xl:px-18 lg:px-10 md:px-8 px-5 lg:py-32 md:pb-4 pb-10">
+                <h2 className="text-center sm:text-left lg:text-display-lg text-display-md font-semibold pb-4">
                   What I do for Businesses
                 </h2>
                 <p className="text-body-md font-normal text-neutral-600 pb-8">
