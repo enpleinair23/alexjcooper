@@ -32,26 +32,28 @@ const About = () => {
                 A bit about me
               </h2>
               <p className="text-body-md font-normal text-neutral-700 text-center sm:text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                odio in et, lectus sit lorem id integer. Nunc odio in et, lectus
-                sit lorem id integer.
+                Welcome to my world of visual storytelling! I'm Alex, a
+                passionate and dedicated video editor with a knack for
+                transforming raw footage into captivating narratives. With two
+                years of experience in the industry, I've honed my skills in
+                crafting compelling videos across various genres and platforms.
                 <br></br>
                 <br></br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                odio in et, lectus.
-                <br></br>
-                <br></br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                odio in et, lectus sit lorem id integer.
+                My creative process revolves around understanding the core
+                message of each project and translating it into a seamless
+                visual story. Whether it's a brand film, a promotional
+                campaign, a documentary, or music video, I thrive on
+                the challenge of bringing concepts to life through a combination
+                of technical finesse and artistic vision.
               </p>
               <div className="flex justify-center sm:justify-start items-start pt-12">
-              <a
-                href="/"
-                className="text-body-sm font-semibold text-white bg-neutral-900 py-4 pl-5 pr-4 rounded-full flex flex-row gap-2 items-center justify-center hover:bg-primary-600"
-              >
-                DOWNLOAD MY CV HERE
-              </a>
-            </div>
+                <a
+                  href="/"
+                  className="text-body-sm font-semibold text-white bg-neutral-900 py-4 pl-5 pr-4 rounded-full flex flex-row gap-2 items-center justify-center hover:bg-primary-600"
+                >
+                  DOWNLOAD MY CV HERE
+                </a>
+              </div>
             </div>
           </div>
           <div className="lg:col-span-7 lg:grid lg:grid-cols-7 flex md:flex-row flex-col items-center md:gap-8 gap-12">
@@ -65,7 +67,8 @@ const About = () => {
               {metrics.map((item) => (
                 <div
                   key={item.label}
-                  className="flex flex-col self-stretch gap-2 pb-4 border-b border-solid border-neutral-400">
+                  className="flex flex-col self-stretch gap-2 pb-4 border-b border-solid border-neutral-400"
+                >
                   <p className="md:text-display-lg text-display-md font-semibold">
                     {item.count}
                   </p>
@@ -78,7 +81,7 @@ const About = () => {
           </div>
         </div>
         <div className="pb-4">
-        <LogoClouds/>
+          <LogoClouds />
         </div>
         <div className="flex justify-center relative pb-1">
           <span className="absolute block h-px bg-white bottom-1/2 left-0 right-0 bg-hero-line"></span>

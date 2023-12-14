@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="lg:col-span-1"></div>
           <div className="lg:col-span-10 flex flex-col items-center">
             <h1 className="lg:text-display-2xl md:text-display-xl text-display-md font-semibold pb-10">
-              Editing video projects, colour grading and motion graphics
+              Video Editing, Colour Grading and Motion Graphics
             </h1>
             <Button label="CONNECT WITH ME" link="#" size="lg" />
           </div>
